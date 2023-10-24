@@ -40,8 +40,13 @@ It consists of a total of 164 videos, with 82 real videos and 82 deepfake videos
   - Envrionment: GPU (GeForce RTX 3060), open source rPPG tool (pyVHR 0.0.4), Python 3.6.9
 
 * **Evaluation**
-  - Facial region: evaluating the differences between real and fake videos in terms of the extracted HR for each facial region (i.e., R1-R9 and Avg).
-  - Extraction interval: evaluating the differences between real and fake videos in terms of the extracted HR for each extraction interval (i.e., 1 second, 0.5 seconds, and 0.1 seconds).
-  - rPPG extraction method: evaluating the differences between real and fake videos in terms of the extracted HR for each rPPG extraction method (i.e., CHROM, GREEN, ICA, LGI, PBV, and PCA).
-  - Feature engineering method: evaluating the differences between real and fake videos in terms of the extracted HR for each feature engineering method (i.e., feat#1, feat#2, and feat#3).
-  - Key factor combination analysis: examining a set of key factor combinations and identified the optimal one that maximizes the performance of rPPG-based deepfake detection. 
+  - Facial region  
+    : evaluating the differences between real and fake videos in terms of the extracted HR for each facial region (i.e., R1-R9 and Avg).
+  - Extraction interval  
+    : evaluating the differences between real and fake videos in terms of the extracted HR for each extraction interval (i.e., 1 second, 0.5 seconds, and 0.1 seconds).
+  - rPPG extraction method    
+    : evaluating the differences between real and fake videos in terms of the extracted HR for each rPPG extraction method (i.e., CHROM, GREEN, ICA, LGI, PBV, and PCA).
+  - Feature engineering method    
+    : evaluating the differences between real and fake videos in terms of the extracted HR for each feature engineering method (i.e., feat#1, feat#2, and feat#3).
+  - Key factor combination analysis  
+    : examining a set of key factor combinations and identified the optimal one that maximizes the performance of rPPG-based deepfake detection. 
